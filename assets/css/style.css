@@ -1,0 +1,66 @@
+@font-face{
+	font-family: 'EuphoriaScript-Regular';
+	src: url('../fonts/EuphoriaScript-Regular.otf');
+}
+
+@font-face{
+	font-family: 'KaushanScript-Regular';
+	src: url('../fonts/KaushanScript-Regular.otf');
+}
+
+@font-face{
+	font-family: 'Bellota-BoldItalic';
+	src: url('../fonts/Bellota-BoldItalic.otf');
+}
+
+@font-face{
+	font-family: 'Bellota-LightItalic';
+	src: url('../fonts/Bellota-LightItalic.otf');
+}
+
+body{
+	line-height: 17px;
+}
+
+.top_bar{
+	width: 100%;
+	min-width: 1050px;
+	height: 40px;
+	background-color: #d2dae2;
+	border-bottom: 0.25em solid #808e9b;
+	margin: 0 0 10px 0; 
+	display: inline-flex;
+}
+
+.logo a{
+	font-family: 'KaushanScript-Regular', sans-serif;
+	font-weight: bold;
+	color: #353b48;
+	text-shadow: #2f3640 0,5px,5px,0;
+	margin-left: 10px;
+	font-size: 30px;
+	position: relative;
+	top: 9px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+nav{
+	float: right;
+	right: 1px;
+	position: absolute;
+	margin: 10px;
+}
+
+nav	a{
+	text-decoration: none;
+	position: relative;
+	color: #000000;
+	font-size: 17px;
+}
+
+nav a:hover{
+	border-bottom: 7px groove #3d3d3d;
+}
